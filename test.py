@@ -141,5 +141,5 @@ if st.button("Predict"):
             "Predicted": y_pred.ravel() if len(y_pred.shape) > 1 else y_pred,
             "Actual": y_test.ravel() if len(y_test.shape) > 1 else y_test
         })
-        st.write("Predicted vs Actual Prices:")
-        st.write(results)
+        # st.write("Predicted vs Actual Prices:")
+        # st.write(results)
